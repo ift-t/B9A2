@@ -1,0 +1,260 @@
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav span {
+    color: #ff5400;
+}
+
+header {
+    display: block;
+    margin: auto;
+}
+.page-name {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+select:invalid {
+    color: gray;
+}
+
+.banner-container {
+    background-image: linear-gradient(
+            180deg,
+            rgba(19, 19, 24, 0.8) 0%,
+            rgba(19, 19, 24, 0) 100%
+        ),
+        url("../Images/Group13.png");
+    width: 1170px;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    border-radius: 16px;
+}
+
+.banner-message {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0;
+}
+
+.message-description {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-form-container {
+    width: 800px;
+    height: 42px;
+    margin: auto;
+}
+
+.banner-form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    gap: 24px;
+}
+
+.popular-tours {
+    width: 1170px;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-text {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.text-main {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.main-description {
+    color: #5a5a5d;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.text-description {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    margin-top: 24px;
+}
+.destination {
+    margin-top: 100px;
+}
+.why-choose-us {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.handpicked-hotels {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.world-class-service {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.best-price-guarantee {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+.tour-containers {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tour1 {
+    margin-top: 48px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background-image: url("../Images/Group\ 39.png");
+    display: flex;
+    justify-content: right;
+}
+
+.tour1-box {
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2.5px);
+    margin: 56px;
+}
+
+.tour2 {
+    margin-top: 48px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background-image: url("../Images/Group\ 40.png");
+    display: flex;
+    justify-content: left;
+}
+
+.tour3 {
+    margin-top: 48px;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    background-image: url("../Images/Group\ 39.png");
+    display: flex;
+    justify-content: right;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #ff5400;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    padding: 14px 22px;
+}
+
+.newsletter-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.newsletter-container img {
+    width: 672px;
+    height: 422px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    padding: 41px;
+    height: 422px;
+}
+
+.newsletter-form > hr {
+    width: 393px;
+    height: 1px;
+}
+
+footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+hr {
+    background: rgba(19, 19, 24, 0.1);
+    width: 872px;
+    height: 1px;
+}
