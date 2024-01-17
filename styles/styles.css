@@ -1,5 +1,11 @@
 * {
     font-family: "Mulish", sans-serif;
+    margin: 0;
+}
+.navigation-bar {
+    width: 1170px;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 nav {
@@ -11,10 +17,6 @@ nav span {
     color: #ff5400;
 }
 
-header {
-    display: block;
-    margin: auto;
-}
 .page-name {
     display: flex;
     gap: 10px;
@@ -82,12 +84,22 @@ select:invalid {
     gap: 24px;
 }
 
+.banner-form input,
+select {
+    border-radius: 8px;
+    border: none;
+    padding: 16px;
+}
+
 .popular-tours {
     width: 1170px;
-    height: 500px;
+    margin: auto;
     margin-top: 100px;
+}
+
+.tours-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .main-text {
@@ -95,7 +107,7 @@ select:invalid {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin: 0;
+    margin: 24px;
 }
 
 .text-main {
@@ -103,13 +115,12 @@ select:invalid {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin: 0;
+    margin: 24px;
     margin-top: 100px;
 }
 
 .main-description {
     color: #5a5a5d;
-    font-family: Mulish;
     font-size: 16px;
     font-weight: 400;
     margin: 0;
@@ -145,6 +156,13 @@ select:invalid {
     background: rgba(251, 181, 99, 0.05);
     width: 573px;
     height: 284px;
+    background-image: url(../Images/hotel\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 5% left 5%;
+}
+
+.choose-img {
+    padding: 32px;
 }
 
 .world-class-service {
@@ -153,6 +171,9 @@ select:invalid {
     background: rgba(41, 206, 246, 0.05);
     width: 573px;
     height: 284px;
+    background-image: url(../Images/map\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 5% left 5%;
 }
 
 .best-price-guarantee {
@@ -163,6 +184,9 @@ select:invalid {
     height: 284px;
     margin: auto;
     margin-top: 24px;
+    background-image: url(../Images/price-tag\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 5% left 5%;
 }
 
 .tour-containers {
@@ -170,7 +194,6 @@ select:invalid {
     align-items: center;
     flex-direction: column;
 }
-
 .tour1 {
     margin-top: 48px;
     width: 1170px;
@@ -189,6 +212,7 @@ select:invalid {
     background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(2.5px);
     margin: 56px;
+    border: none;
 }
 
 .tour2 {
@@ -209,6 +233,37 @@ select:invalid {
     background-image: url("../Images/Group\ 39.png");
     display: flex;
     justify-content: right;
+    margin-bottom: 60px;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.tour-detail {
+    margin: 24px;
+}
+
+.gray-text {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.bold-text {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.orange-text {
+    color: #ff5400;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 16px;
 }
 
 .btn-primary {
@@ -222,16 +277,43 @@ select:invalid {
     padding: 14px 22px;
 }
 
-.newsletter-container {
-    margin-top: 100px;
+.tours-flex-container {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
 }
 
-.newsletter-container img {
+.newsletter-flexbox {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 100px;
+}
+
+.img-holder img {
     width: 672px;
     height: 422px;
+}
+
+.img-top {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-20deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #ff5400;
+}
+.img-top1 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotate(-19.628deg);
+}
+
+.img-top2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+    transform: rotate(-19.628deg);
 }
 
 .newsletter-form {
@@ -247,14 +329,72 @@ select:invalid {
 .newsletter-form > hr {
     width: 393px;
     height: 1px;
+    border: none;
+}
+
+.newsletter-form input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 16px;
 }
 
 footer {
     background: rgba(19, 19, 24, 0.05);
+
+    height: 502px;
 }
 
-hr {
+.footer-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content hr {
     background: rgba(19, 19, 24, 0.1);
     width: 872px;
     height: 1px;
+    border: none;
+    margin: auto;
+}
+
+.footer-content {
+    width: 1170px;
+
+    margin: auto;
+}
+
+.web-name1 {
+    background-image: url("../Images/Group\ 40071\ \(2\).png");
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    background-size: 40px;
+    background-position: 40%;
+    width: 100%;
+}
+
+.web-name1 span {
+    color: #ff5400;
+}
+
+.footer-page-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.rights {
+    text-align: center;
+}
+
+.socials {
+    text-align: center;
+    margin: 16px;
 }
